@@ -9,8 +9,8 @@ metadata:
 spec:
   ingressClassName: nginx
   tls:
-  - hosts:
-      - 152.42.144.199.sslip.io
+  - hosts: ## Replace this with Domain name
+      - 152.42.144.199.sslip.io 
       - fast.152.42.144.199.sslip.io 
       - nginx.152.42.144.199.sslip.io 
     secretName: quickstart-example-tls
